@@ -4,11 +4,11 @@
 # 若需要从已经得到的checkpoint继续训练，可将下方checkpoint_file_name指定为checkpoint路径
 
 # TODO for class
-log_path="./train/log/train.log"
-train_data_path="./data/data_train.json"
-dev_data_path="./data/data_dev.json"
-output_checkpoint_dir="./train/checkpoint"
-model_file_path="./downloads/model/Lawformer_model"
+log_path="Information-retrival-hw4/train/log/train.log"
+train_data_path="Information-retrival-hw4/data/data_train.json"
+dev_data_path="Information-retrival-hw4/data/data_dev.json"
+output_checkpoint_dir="Information-retrival-hw4/train/checkpoint"
+model_file_path="Information-retrival-hw4/downloads/model/Lawformer_model"
 
 torchrun --nproc_per_node 4 \
     train_dense_encoder.py \
