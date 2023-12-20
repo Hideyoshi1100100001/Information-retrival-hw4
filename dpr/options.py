@@ -89,6 +89,7 @@ def setup_cfg_gpu(cfg):
     ws = os.environ.get("WORLD_SIZE")
     cfg.distributed_world_size = int(ws) if ws else 1
     logger.info("Env WORLD_SIZE=%s", ws)
+    cfg.local_rank = -1
 
     if cfg.distributed_port and cfg.distributed_port > 0:
         logger.info("distributed_port is specified, trying to init distributed mode from SLURM params ...")
