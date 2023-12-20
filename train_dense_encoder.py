@@ -17,7 +17,6 @@ import random
 import sys
 import time
 from typing import Tuple
-import nvidia_smi
 import hydra
 import torch
 from omegaconf import DictConfig, OmegaConf

@@ -32,7 +32,6 @@ else:
 
 from dpr.utils.data_utils import Tensorizer
 from dpr.models.biencoder import BiEncoder
-from .reader import Reader
 
 logger = logging.getLogger(__name__)
 
