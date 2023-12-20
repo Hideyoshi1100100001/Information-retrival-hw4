@@ -3,3 +3,5 @@ data.jsonl
 .DS_Store
 
 downloads/model
+
+__pycache__
