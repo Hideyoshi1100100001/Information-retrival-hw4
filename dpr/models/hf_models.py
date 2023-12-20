@@ -10,7 +10,6 @@ Encoder model wrappers based on HuggingFace code
 """
 
 import logging
-from msilib import sequence
 from typing import Tuple, List
 
 import torch
